@@ -1,16 +1,12 @@
-#ifndef main_h
-	#define main_h
-/** main - Entry point of the program
- *
- * Description: This function prints the string "_putchar" followed by
- * 		a new line character. It uses the _putchar function to
- * 		print individual characters.
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
+#ifndef Main_H
+#define Main_H
 
+/**
+ * _putchar - Writes a character to standard output
+ * @c: The character to be written
+ *
+ * Return: On success the character written. 
+ */
 	int _putchar(char);
 	void print_alphabet(void);
 	void print_alphabet_x10(void);
@@ -27,4 +23,4 @@ int main(void)
 
 
 	#endif
-}
+
